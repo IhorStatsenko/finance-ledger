@@ -1,20 +1,233 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Pet project html/css(scss) for learning markup" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+      name="description"
+      content="Pet project html/css(scss) for learning markup"
+    >
     <title>Finance Ledger</title>
-    <link rel="icon" type="image/svg+xml" href="./src/assets/icons/favicon/vite.svg" />
-    <link rel="stylesheet" href="src/styles/main.scss" />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="./src/assets/icons/favicon/vite.svg"
+    >
+    <link rel="stylesheet" href="src/styles/main.scss">
   </head>
   <body>
-    <div id="app">
-      <div class="test">
-        <h1>Finance Ledger</h1>
-        <p>testing</p>
-      </div>
-    </div>
+    <header>
+      <a href="/" class="logo">
+        <svg class="logo__icon icon icon-book-open" width="39" height="31">
+          <use href="./src/assets/icons/svg/sprite.svg#icon-book-open"></use>
+        </svg>
+        Finance <span class="logo__span">Ledger</span>
+      </a>
+
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#" class="nav__link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">About</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">Cases</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">Blog</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="hero__content">
+          <h1 class="hero__title">The Sky Is The Limit</h1>
+          <p class="hero__text">We provide world class financial assistance</p>
+          <a href="#" class="btn btn--primary">Read More</a>
+        </div>
+      </section>
+      <section class="section section__about">
+        <div class="container">
+          <div class="section__content">
+            <!-- TODO hide h2 title-->
+            <h2 class="section__title">About Us</h2>
+            <ul class="about__list">
+              <li class="about__item">
+                <h3>Investmant Banking</h3>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Consequatur, necessitatibus!
+                </p>
+              </li>
+              <li class="about__item">
+                <h3>Portfolio Manager</h3>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Consequatur, necessitatibus!
+                </p>
+              </li>
+              <li class="about__item">
+                <h3>Tax & Custudio</h3>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Consequatur, necessitatibus!
+                </p>
+              </li>
+            </ul>
+            <img src="/src/assets/images/team/team_mobile.webp" alt="Our team">
+            <p>What you are looking for</p>
+            <h3>We provide bespoke solutions</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Voluptate, ipsum dignissimos quae laudantium asperiores nam
+              aliquid impedit harum illum dolore explicabo ab dolores itaque
+              rerum temporibus doloribus iste maiores deleniti?
+            </p>
+            <a href="#" class="btn btn--primary">Read More</a>
+          </div>
+        </div>
+      </section>
+      <section class="section section--cases">
+        <p>This is what we do</p>
+        <h2>Business Cases</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
+          sapiente!
+        </p>
+        <img
+          src="/src/assets/images/busines-cases/case01/case01_mobile.webp"
+          alt="case 1"
+        >
+        <img
+          src="/src/assets/images/busines-cases/case02/case02_mobile.webp"
+          alt="case 2"
+        >
+        <img
+          src="/src/assets/images/busines-cases/case03/case03_mobile.webp"
+          alt="case 3"
+        >
+        <img
+          src="/src/assets/images/busines-cases/case04/case04_mobile.webp"
+          alt="case 4"
+        >
+        <img
+          src="/src/assets/images/busines-cases/case05/case05_mobile.webp"
+          alt="case 5"
+        >
+        <img
+          src="/src/assets/images/busines-cases/case06/case06_mobile.webp"
+          alt="case 6"
+        >
+        <img
+          src="/src/assets/images/busines-cases/case07/case07_mobile.webp"
+          alt="case 7"
+        >
+        <img
+          src="/src/assets/images/busines-cases/case08/case08_mobile.webp"
+          alt="case 8"
+        >
+      </section>
+      <section class="section section--blog">
+        <img src="/src/assets/images/blog/blog_mobile.webp" alt="Blog">
+        <!-- TODO time -->
+        <p>April 16 2020</p>
+        <h2>Blog Post One</h2>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate,
+          ipsum dignissimos quae laudantium asperiores nam aliquid impedit harum
+          illum dolore explicabo ab dolores itaque rerum temporibus doloribus
+          iste maiores deleniti?
+        </p>
+        <a href="#" class="btn btn--primary">Read Our Blog</a>
+      </section>
+      <section class="section section--team">
+        <p>Who we are</p>
+        <h2>Our Professional Team</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
+          sapiente!
+        </p>
+        <ul class="team__list">
+          <li class="team__item">
+            <img
+              src="/src/assets/images/persons/john-doe/john_doe_mobile.webp"
+              alt="John Doe"
+            >
+            <p>John Doe</p>
+            <p>President</p>
+          </li>
+          <li class="team__item">
+            <img
+              src="/src/assets/images/persons/jane-doe/jane_doe_mobile.webp"
+              alt="Jane Doe"
+            >
+            <p>Jane Doe</p>
+            <p>Vice President</p>
+          </li>
+          <li class="team__item">
+            <img
+              src="/src/assets/images/persons/steve-smith/steve_smith_mobile.webp"
+              alt="Steve Smith"
+            >
+            <p>Steve Smith</p>
+            <p>Marketing Head</p>
+          </li>
+        </ul>
+      </section>
+      <section class="section section--contact">
+        <img
+          src="/src/assets/images/callback/callback_mobile.webp"
+          alt="Contact center"
+        >
+        <h2>Request Callback</h2>
+        <form action="submit">
+          <input type="text" placeholder="Enter your name">
+          <input type="email" placeholder="Enter email*">
+          <button type="submit">Send</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <ul>
+        <!-- TODO check alt -->
+        <li>
+          <a href="#facebook">
+            <svg class="logo__icon icon icon-facebook" width="32" height="32">
+              <use href="./src/assets/icons/svg/sprite.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+
+        <li>
+          <a href="#twitter">
+            <svg class="logo__icon icon icon-twitter" width="37" height="32">
+              <use href="./src/assets/icons/svg/sprite.svg#icon-twitter"></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="#youtube">
+            <svg class="logo__icon icon icon-youtube" width="45" height="32">
+              <use href="./src/assets/icons/svg/sprite.svg#icon-youtube"></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="#linkedin">
+            <svg class="logo__icon icon icon-linkedin" width="32" height="32">
+              <use href="./src/assets/icons/svg/sprite.svg#icon-linkedin"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+      <p>Copyright &copy; 2021 FinanceLedger</p>
+    </footer>
     <script type="module" src="/src/scripts/main.js"></script>
   </body>
 </html>
