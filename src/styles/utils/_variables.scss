@@ -4,7 +4,9 @@
   --color-brand-light: #f4f4f4;
   --color-text-dark: #333333;
   --color-text-light: #e9e9e9;
-  --color-overlay: #00000080;
+  --overlay40: linear-gradient(#00000066, #00000066);
+  --overlay60: linear-gradient(#00000099, #00000099);
   --color-placeholder: #808080;
   --color-background: #fff;
+  --box-shadow: 2px 2px 12px 2px rgba(0, 0, 0, 0.4);
 }

@@ -1,0 +1,35 @@
+.hero {
+  text-align: center;
+  color: var(--color-text-light);
+  background-image: var(--overlay40),
+    url('../assets/images/city/city_mobile.webp');
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2ddpx) {
+    background-image: var(--color-overlay40),
+      url('../assets/images/city/city_mobile@2.webp');
+  }
+  &__title {
+    font-weight: 300;
+    font-size: 52px;
+    line-height: 68px;
+  }
+  &__text {
+    margin-top: 16px;
+    margin-bottom: 27px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 37px;
+  }
+  &__button::before {
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 12px;
+    margin-right: 6px;
+
+    mask-image: url('../assets/icons/svg/angel-right.svg');
+    background-color: #fff;
+    mask-size: 8px 12px;
+  }
+}
