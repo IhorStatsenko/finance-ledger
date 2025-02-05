@@ -1,0 +1,27 @@
+.header {
+  text-align: center;
+}
+
+.logo {
+  font-size: 32px;
+  line-height: 42px;
+  text-align: center;
+  color: var(--color-brand-primary);
+  &__icon {
+    fill: var(--color-brand-primary);
+  }
+  &__span {
+    color: var(--color-background);
+  }
+}
+
+.nav {
+  padding-top: 10px;
+
+  &__list {
+    display: flex;
+    gap: 13px;
+    line-height: 26px;
+    color: var(--color-background);
+  }
+}
