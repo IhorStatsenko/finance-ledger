@@ -1,6 +1,7 @@
 .features {
   &__list {
     padding: 30px 50px;
+    background-color: var(--color-brand-light);
   }
   &__list li + li {
     margin-top: 18px;
