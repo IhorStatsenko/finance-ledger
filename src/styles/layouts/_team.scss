@@ -1,0 +1,26 @@
+.team {
+  & .suptitle {
+    margin-bottom: 15px;
+  }
+  & .title {
+    margin-bottom: 35px;
+  }
+  & .description {
+    margin-bottom: 37px;
+  }
+  & .teammate {
+    margin-top: 15px;
+    font-size: 23px;
+    line-height: 29px;
+  }
+  & .position {
+    margin-top: 11px;
+    line-height: 26px;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
