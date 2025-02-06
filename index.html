@@ -69,24 +69,24 @@
           <h2 class="features__section-title visually-hidden">
             We provide assistance worldwide
           </h2>
-          <ul class="features__list">
+          <ul class="features__list formatter">
             <li class="features__item features__item-banking">
-              <h3 class="features__title">Investmant Banking</h3>
-              <p class="features__description">
+              <h3 class="suptitle">Investmant Banking</h3>
+              <p class="description">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                 Consequatur, necessitatibus!
               </p>
             </li>
             <li class="features__item features__item-portfolio">
-              <h3 class="features__title">Portfolio Manager</h3>
-              <p class="features__description">
+              <h3 class="suptitle">Portfolio Manager</h3>
+              <p class="description">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                 Consequatur, necessitatibus!
               </p>
             </li>
             <li class="features__item features__item-tax">
-              <h3 class="features__title">Tax & Custudio</h3>
-              <p class="features__description">
+              <h3 class="suptitle">Tax & Custudio</h3>
+              <p class="description">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                 Consequatur, necessitatibus!
               </p>
@@ -110,10 +110,10 @@
               >
               <img src="/src/assets/images/team/team_mobile.jpg" alt="Our team">
             </picture>
-            <div class="bespoke__text">
-              <p class="bespoke__suptitle">What you are looking for</p>
-              <h3 class="bespoke__title">We provide bespoke solutions</h3>
-              <p class="bespoke__description">
+            <div class="bespoke__text formatter">
+              <p class="suptitle">What you are looking for</p>
+              <h3 class="title">We provide bespoke solutions</h3>
+              <p class="description">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                 Voluptate, ipsum dignissimos quae laudantium asperiores nam
                 aliquid impedit harum illum dolore explicabo ab dolores itaque
@@ -125,10 +125,10 @@
         </div>
       </section>
       <section class="section section__cases">
-        <div class="container container__cases cases">
-          <p class="cases__suptitle">This is what we do</p>
-          <h2 class="cases__title">Business Cases</h2>
-          <p class="cases__description">
+        <div class="container container__cases cases formatter">
+          <p class="suptitle">This is what we do</p>
+          <h2 class="title">Business Cases</h2>
+          <p class="description">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
             sapiente!
           </p>
@@ -296,18 +296,38 @@
           </div>
         </div>
       </section>
-      <section class="section section--blog">
-        <img src="/src/assets/images/blog/blog_mobile.webp" alt="Blog">
-        <!-- TODO time -->
-        <p>April 16 2020</p>
-        <h2>Blog Post One</h2>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate,
-          ipsum dignissimos quae laudantium asperiores nam aliquid impedit harum
-          illum dolore explicabo ab dolores itaque rerum temporibus doloribus
-          iste maiores deleniti?
-        </p>
-        <a href="#" class="btn btn--primary">Read Our Blog</a>
+      <section class="section section__blog">
+        <div class="container container__blog blog">
+          <picture>
+            <source
+              srcset="
+                /src/assets/images/blog/blog_mobile.webp   1x,
+                /src/assets/images/blog/blog_mobile@2.webp 2x
+              "
+              type="image/webp"
+            >
+            <source
+              srcset="
+                /src/assets/images/blog/blog_mobile.jpg   1x,
+                /src/assets/images/blog/blog_mobile@2.jpg 2x
+              "
+              type="image/jpg"
+            >
+            <img src="/src/assets/images/blog/blog_mobile.jpg" alt="Blog">
+          </picture>
+          <div class="blog__text formatter">
+            <!-- TODO time -->
+            <p class="suptitle">April 16 2020</p>
+            <h2 class="title">Blog Post One</h2>
+            <p class="description">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Voluptate, ipsum dignissimos quae laudantium asperiores nam
+              aliquid impedit harum illum dolore explicabo ab dolores itaque
+              rerum temporibus doloribus iste maiores deleniti?
+            </p>
+            <a href="#" class="button button--secondary">Read Our Blog</a>
+          </div>
+        </div>
       </section>
       <section class="section section--team">
         <p>Who we are</p>
