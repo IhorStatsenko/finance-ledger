@@ -5,10 +5,7 @@
   &__list li + li {
     margin-top: 18px;
   }
-  &__title {
-    font-size: 18px;
-  }
-  &__description {
+  & .description {
     margin-top: 15px;
   }
   &__item::before {
@@ -40,19 +37,13 @@
     color: var(--color-background);
     background-color: var(--color-brand-primary);
   }
-  &__suptitle {
+  & .suptitle {
     margin-bottom: 5px;
-    font-size: 18px;
-    line-height: 30px;
   }
-  &__title {
+  & .title {
     margin-bottom: 25px;
-    font-size: 38px;
-    line-height: 48px;
-    font-weight: 300;
   }
-  &__description {
+  & .description {
     margin-bottom: 14px;
-    line-height: 26px;
   }
 }

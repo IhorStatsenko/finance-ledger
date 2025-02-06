@@ -1,0 +1,14 @@
+.formatter {
+  & .suptitle {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  & .title {
+    font-size: 38px;
+    line-height: 48px;
+    font-weight: 300;
+  }
+  & .description {
+    line-height: 26px;
+  }
+}
