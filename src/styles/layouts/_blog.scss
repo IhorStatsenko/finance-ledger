@@ -1,0 +1,16 @@
+.blog__text {
+  padding: 30px;
+  text-align: left;
+  color: var(--color-background);
+  background-color: var(--color-brand-secondary);
+
+  & .suptitle {
+    margin-bottom: 5px;
+  }
+  & .title {
+    margin-bottom: 25px;
+  }
+  & .description {
+    margin-bottom: 14px;
+  }
+}
