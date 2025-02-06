@@ -1,0 +1,28 @@
+.contact {
+  &__form {
+    padding: 26px 30px 30px;
+    background-color: var(--color-brand-light);
+  }
+  &__form .title {
+    margin-bottom: 34px;
+  }
+  &__form input {
+    display: block;
+    width: 100%;
+    padding: 9px 5px 8px;
+    border: none;
+    font-family: 'Open Sans', serif;
+    font-size: 16px;
+    line-height: 23px;
+  }
+  &__form input + input {
+    margin-top: 36px;
+  }
+  &__form input::placeholder {
+    color: var(--color-placeholder);
+  }
+  &__form button {
+    width: 100%;
+    margin-top: 53px;
+  }
+}
