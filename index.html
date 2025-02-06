@@ -316,8 +316,7 @@
             <img src="/src/assets/images/blog/blog_mobile.jpg" alt="Blog">
           </picture>
           <div class="blog__text formatter">
-            <!-- TODO time -->
-            <p class="suptitle">April 16 2020</p>
+            <time datetime="2020-04-16" class="suptitle">April 16 2020</time>
             <h2 class="title">Blog Post One</h2>
             <p class="description">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -329,39 +328,90 @@
           </div>
         </div>
       </section>
-      <section class="section section--team">
-        <p>Who we are</p>
-        <h2>Our Professional Team</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
-          sapiente!
-        </p>
-        <ul class="team__list">
-          <li class="team__item">
-            <img
-              src="/src/assets/images/persons/john-doe/john_doe_mobile.webp"
-              alt="John Doe"
-            >
-            <p>John Doe</p>
-            <p>President</p>
-          </li>
-          <li class="team__item">
-            <img
-              src="/src/assets/images/persons/jane-doe/jane_doe_mobile.webp"
-              alt="Jane Doe"
-            >
-            <p>Jane Doe</p>
-            <p>Vice President</p>
-          </li>
-          <li class="team__item">
-            <img
-              src="/src/assets/images/persons/steve-smith/steve_smith_mobile.webp"
-              alt="Steve Smith"
-            >
-            <p>Steve Smith</p>
-            <p>Marketing Head</p>
-          </li>
-        </ul>
+      <section class="section section__team">
+        <div class="container container__team team formatter">
+          <p class="suptitle">Who we are</p>
+          <h2 class="title">Our Professional Team</h2>
+          <p class="description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
+            sapiente!
+          </p>
+          <!-- TODO add overlay -->
+          <ul class="team__list">
+            <li class="team__item">
+              <picture>
+                <source
+                  srcset="
+                    /src/assets/images/persons/john-doe/john_doe_mobile.webp   1x,
+                    /src/assets/images/persons/john-doe/john_doe_mobile@2.webp 2x
+                  "
+                  type="image/webp"
+                >
+                <source
+                  srcset="
+                    /src/assets/images/persons/john-doe/john_doe_mobile.jpg   1x,
+                    /src/assets/images/persons/john-doe/john_doe_mobile@2.jpg 2x
+                  "
+                  type="image/jpg"
+                >
+                <img
+                  src="/src/assets/images/persons/john-doe/john_doe_mobile.jpg"
+                  alt="John Doe"
+                >
+              </picture>
+              <p class="teammate">John Doe</p>
+              <p class="position">President</p>
+            </li>
+            <li class="team__item">
+              <picture>
+                <source
+                  srcset="
+                    /src/assets/images/persons/jane-doe/jane_doe_mobile.webp   1x,
+                    /src/assets/images/persons/jane-doe/jane_doe_mobile@2.webp 2x
+                  "
+                  type="image/webp"
+                >
+                <source
+                  srcset="
+                    /src/assets/images/persons/jane-doe/jane_doe_mobile.jpg   1x,
+                    /src/assets/images/persons/jane-doe/jane_doe_mobile@2.jpg 2x
+                  "
+                  type="image/jpg"
+                >
+                <img
+                  src="/src/assets/images/persons/jane-doe/jane_doe_mobile.webp"
+                  alt="Jane Doe"
+                >
+              </picture>
+              <p class="teammate">Jane Doe</p>
+              <p class="position">Vice President</p>
+            </li>
+            <li class="team__item">
+              <picture>
+                <source
+                  srcset="
+                    /src/assets/images/persons/steve-smith/steve_smith_mobile.webp   1x,
+                    /src/assets/images/persons/steve-smith/steve_smith_mobile@2.webp 2x
+                  "
+                  type="image/webp"
+                >
+                <source
+                  srcset="
+                    /src/assets/images/persons/steve-smith/steve_smith_mobile.jpg   1x,
+                    /src/assets/images/persons/steve-smith/steve_smith_mobile@2.jpg 2x
+                  "
+                  type="image/jpg"
+                >
+                <img
+                  src="/src/assets/images/persons/steve-smith/steve_smith_mobile.webp"
+                  alt="Steve Smith"
+                >
+              </picture>
+              <p class="teammate">Steve Smith</p>
+              <p class="position">Marketing Head</p>
+            </li>
+          </ul>
+        </div>
       </section>
       <section class="section section--contact">
         <img
