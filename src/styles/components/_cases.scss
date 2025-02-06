@@ -1,0 +1,22 @@
+.cases {
+  &__suptitle {
+    margin-bottom: 15px;
+    font-size: 18px;
+    line-height: 30px;
+  }
+  &__title {
+    margin: 0 51px 35px;
+    font-size: 38px;
+    line-height: 38px;
+    font-weight: 300;
+  }
+  &__description {
+    margin-bottom: 37px;
+    line-height: 26px;
+  }
+  &__imgage-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+  }
+}
