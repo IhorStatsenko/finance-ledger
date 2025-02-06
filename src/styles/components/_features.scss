@@ -1,0 +1,59 @@
+.features {
+  text-align: center;
+  &__list {
+    padding: 30px 50px;
+  }
+  &__list li + li {
+    margin-top: 18px;
+  }
+  &__title {
+    font-size: 18px;
+  }
+  &__description {
+    margin-top: 15px;
+  }
+  &__item::before {
+    content: '';
+    display: inline-block;
+    width: 64px;
+    height: 64px;
+    margin-bottom: 10px;
+    background-color: var(--color-brand-primary);
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: 34px 34px;
+    background-position: center;
+  }
+  &__item-banking::before {
+    background-image: url('../assets/icons/svg/university.svg');
+  }
+  &__item-portfolio::before {
+    background-image: url('../assets/icons/svg/book-reader.svg');
+  }
+  &__item-tax::before {
+    background-image: url('../assets/icons/svg/pencil.svg');
+  }
+}
+.bespoke {
+  &__text {
+    padding: 30px;
+    text-align: left;
+    color: var(--color-background);
+    background-color: var(--color-brand-primary);
+  }
+  &__suptitle {
+    margin-bottom: 5px;
+    font-size: 18px;
+    line-height: 30px;
+  }
+  &__title {
+    margin-bottom: 25px;
+    font-size: 38px;
+    line-height: 48px;
+    font-weight: 300;
+  }
+  &__description {
+    margin-bottom: 14px;
+    line-height: 26px;
+  }
+}
